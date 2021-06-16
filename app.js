@@ -1,5 +1,6 @@
 alert("Welcome to my page")
 
+<<<<<<< HEAD
 var capital = prompt("What is the population of each of the following cities? (London , paris , New York , Tokyo)?")
 
 if (capital == "London"){
@@ -25,6 +26,8 @@ else if (capital == "Tokyo"){
 else {
   alert ("Sorry, you did not choose any city")
 }
+=======
+>>>>>>> bfb1cc17b7afa081675e293563038132d2b5c9cb
 
 function openPage(pageName, elmnt, color) {
   // Hide all elements with class="tabcontent" by default */
