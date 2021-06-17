@@ -6,9 +6,81 @@
     <title>HTML And Javascript</title>
 
     <link rel="stylesheet" type="text/css" href="CS.css" />
+
+
+    <style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding : 20px
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width:700px;
+}
+
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+</style>
   </head>
   
   <body>
+
+   <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#Image">Image</a>
+  <a href="#x">Contact</a>
+</div>
+
+<div style="padding-left:16px">
+</div> 
 
     <center><h1 style="color:blue"> The largest capitals in the world </h1></center>
 
@@ -42,7 +114,51 @@
 
 Here is everything you need to know about operating to Tokyo.</p>
 </div>
-  </body>
+
+
+
+
+<div id="Image" class="gallery">
+  <a target="_blank" href="">
+    <img src="http://www.barabic.com//HLIC/fa99f9a78d826029bfd0095d883ea4d4.jpg" alt="Cinque Terre" width="1000" height="1000">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="https://cdn.sotor.com/thumbs/fit630x300/34886/1570042479/%D8%AF%D9%88%D9%84_%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7_%D9%88%D8%B9%D9%88%D8%A7%D8%B5%D9%85%D9%87%D8%A7.jpg" alt="Forest" width="1000" height="1000">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="https://www.albayan.ae/polopoly_fs/1.1858621.1475814346!/image/image.jpg" alt="Northern Lights" width="1000" height="1000">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJTfFjfs_WoiXzQCi3esQ0So9ls-yP3esgxA&usqp=CAU" alt="Mountains" width="1000" height="1000">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+<br>
+
+
+<div id="x" >
+
+  <footer class="footer"> Call us  </footer>
+</div>
+
+
+
+
+
 <script src="app.js"></script>
+  </body>
+
   
 </html>
