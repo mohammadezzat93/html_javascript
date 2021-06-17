@@ -41,7 +41,7 @@ for (var x= 0 ;x < numofpic ;x++){
 }
 }
 
-if (city == "paris"){
+else if (city == "paris"){
 
 var numofpic = prompt("how many times you like to see London ?")
 
@@ -50,7 +50,7 @@ for (var x= 0 ;x < numofpic ;x++){
 }
 }
 
-if (city == "Newyork"){
+else if (city == "Newyork"){
 
 var numofpic = prompt("how many times you like to see London ?")
 
