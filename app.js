@@ -1,5 +1,7 @@
 alert("Welcome to my page")
 
+// ============================ if , else ==================
+
 var capital = prompt("What is the population of each of the following cities? (London , paris , New York , Tokyo)?")
 
 if (capital == "London"){
@@ -25,6 +27,12 @@ else if (capital == "Tokyo"){
 else {
   alert ("Sorry, you did not choose any city")
 }
+
+
+
+
+// ============================ While , For Looop ==================
+
 
 
 var city = prompt("What is your favorite City from These (London , paris , Newyork)")
@@ -62,6 +70,40 @@ for (var x= 0 ;x < numofpic ;x++){
 else {
   alert ("Sorry, you did not choose any city")
 }
+
+
+
+// ==========================================================
+
+
+
+
+// =========================  Function  =====================
+
+
+function rating (){
+  var starnum = prompt("how many Stars do you rate London ?")
+
+return starnum ;
+}
+
+var num = rating();
+for (var i=0 ; i<num ; i++) {
+  document.write( "<img src ='https://lh3.googleusercontent.com/proxy/_KaXPUD6XSHAntUcAFhj9gtYYyS3tAU2YZJyT4kU3dI5B8ItvxZElqT1uK6UkbzKcnJnrcPQQqHvNWvab42Gg947dVDFB38' width='200' height='200'>")
+}
+
+//=======================
+
+function rating2 (num){
+
+for (var i=0 ; i<num ; i++) {
+  document.write( "<img src ='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png' width='200' height='200'>")
+}
+}
+
+  var starnum = prompt("how many Heart do you rate London ?")
+
+rating2 (starnum);
 
 
 
